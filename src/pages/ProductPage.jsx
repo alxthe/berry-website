@@ -8,11 +8,11 @@ export default function ProductPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-purple-50 to-neutral-50" />
         <div className="relative mx-auto max-w-6xl px-4 py-20 md:py-28">
           <div className="max-w-2xl">
-            <p className="text-sm uppercase tracking-widest text-neutral-600">berry product</p>
-            <h1 className="mt-4 text-4xl md:text-6xl font-semibold leading-tight">
+            <p className="text-base uppercase tracking-widest text-neutral-600">berry product</p>
+            <h1 className="mt-4 text-5xl md:text-7xl font-semibold leading-tight">
               a talking plushie with purpose
             </h1>
-            <p className="mt-6 text-lg md:text-xl text-neutral-700">
+            <p className="mt-6 text-xl md:text-2xl text-neutral-700">
               designed for daily reflection, built for real impact
             </p>
           </div>

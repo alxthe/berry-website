@@ -17,15 +17,15 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-b from-rose-50 to-neutral-50" />
         <div className="relative mx-auto max-w-7xl px-6 py-16 md:py-24">
           <div className="max-w-4xl">
-            <h1 className="text-5xl md:text-7xl font-semibold leading-tight">
+            <h1 className="text-6xl md:text-8xl font-semibold leading-tight">
               where you fall in love with your own story
             </h1>
-            <p className="mt-6 text-xl md:text-2xl text-neutral-700 max-w-3xl">
+            <p className="mt-6 text-2xl md:text-3xl text-neutral-700 max-w-3xl">
               screen-free ai talking plushie for every day reflection
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
-              <a href="#join" className="inline-flex items-center justify-center rounded-2xl bg-neutral-900 text-white px-8 py-4 text-base font-medium hover:opacity-90">join the waitlist</a>
-              <a href="#why" className="inline-flex items-center justify-center rounded-2xl border border-neutral-300 px-8 py-4 text-base font-medium hover:bg-white">learn more</a>
+              <a href="#join" className="inline-flex items-center justify-center rounded-2xl bg-neutral-900 text-white px-8 py-4 text-lg font-medium hover:opacity-90">join the waitlist</a>
+              <a href="#why" className="inline-flex items-center justify-center rounded-2xl border border-neutral-300 px-8 py-4 text-lg font-medium hover:bg-white">learn more</a>
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@ export default function HomePage() {
             "gratitude + growth oriented",
             "closed-loop knowledge (no browsing)"
           ].map((t, i) => (
-            <div key={i} className="rounded-2xl border border-neutral-200 bg-white px-6 py-4 text-base">
+            <div key={i} className="rounded-2xl border border-neutral-200 bg-white px-6 py-4 text-lg">
               {t}
             </div>
           ))}
@@ -59,14 +59,14 @@ export default function HomePage() {
               <span className="rounded-xl bg-neutral-200 px-4 py-2">overconsuming</span>
               <span className="rounded-xl bg-rose-100 px-4 py-2">overexposed</span>
             </div>
-            <p className="mt-6 text-lg text-neutral-700 leading-relaxed">
+            <p className="mt-6 text-xl text-neutral-700 leading-relaxed">
               social feeds leave almost no quiet moments. overexposure turns small, daily
               stressors into heavy cycles of rumination. journaling and meditation help, but few stick with them because they feel boring or hard. berry makes self-reflection natural and fun.
             </p>
           </div>
           <div className="rounded-3xl border border-neutral-200 bg-white p-8">
-            <h3 className="text-2xl font-semibold">what berry is</h3>
-            <ul className="mt-4 space-y-3 text-lg text-neutral-700">
+            <h3 className="text-3xl font-semibold">what berry is</h3>
+            <ul className="mt-4 space-y-3 text-xl text-neutral-700">
               <li>• a screen-free plushie you speak with</li>
               <li>• a better alternative to journaling / meditation that actually sticks</li>
               <li>• a daily space to reflect on micro-stressors and wins</li>
@@ -74,7 +74,7 @@ export default function HomePage() {
               <li>• a gentle nudge toward gratitude, growth, and a more positive outlook</li>
               <li>• focused on day-to-day stuff — not heavy or clinical topics</li>
             </ul>
-            <p className="mt-4 text-base text-neutral-500">
+            <p className="mt-4 text-lg text-neutral-500">
               note: we never claim to replace humans or give advice outside a safe, closed knowledge base.
             </p>
           </div>
@@ -95,13 +95,13 @@ export default function HomePage() {
             body: "close with one tiny action or gratitude. feel lighter, step forward.",
           }].map((card, i) => (
             <div key={i} className="rounded-3xl border border-neutral-200 bg-white p-8">
-              <div className="text-base uppercase tracking-widest text-neutral-600">{String(i+1).padStart(2,'0')}</div>
-              <h3 className="mt-2 text-3xl font-semibold">{card.title}</h3>
-              <p className="mt-3 text-lg text-neutral-700">{card.body}</p>
+              <div className="text-lg uppercase tracking-widest text-neutral-600">{String(i+1).padStart(2,'0')}</div>
+              <h3 className="mt-2 text-4xl font-semibold">{card.title}</h3>
+              <p className="mt-3 text-xl text-neutral-700">{card.body}</p>
             </div>
           ))}
         </div>
-        <div className="mt-8 rounded-3xl border border-dashed border-neutral-300 p-8 text-base text-neutral-600">
+        <div className="mt-8 rounded-3xl border border-dashed border-neutral-300 p-8 text-lg text-neutral-600">
           journaling and meditation improve outlooks, but adoption stays low. berry brings the same benefits in a playful, voice-first way.
         </div>
       </section>
@@ -110,9 +110,9 @@ export default function HomePage() {
       <section id="boundaries" className="mx-auto max-w-7xl px-6 py-12 md:py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           <div>
-            <h2 className="text-4xl md:text-5xl font-semibold">boundaries by design</h2>
-            <p className="mt-4 text-lg text-neutral-700">clear guardrails make berry safe, simple, and focused.</p>
-            <ul className="mt-6 space-y-3 text-lg text-neutral-700">
+            <h2 className="text-5xl md:text-6xl font-semibold">boundaries by design</h2>
+            <p className="mt-4 text-xl text-neutral-700">clear guardrails make berry safe, simple, and focused.</p>
+            <ul className="mt-6 space-y-3 text-xl text-neutral-700">
               <li>• built-in time limits for each conversation</li>
               <li>• requires phone off (or airplane mode) to start — forces screen-free time</li>
               <li>• you control memory — view, edit, or delete any entry, anytime</li>
@@ -121,14 +121,14 @@ export default function HomePage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-neutral-200 bg-white p-8">
-            <h3 className="text-2xl font-semibold">daily flow</h3>
-            <ol className="mt-4 list-decimal list-inside space-y-2 text-lg text-neutral-700">
+            <h3 className="text-3xl font-semibold">daily flow</h3>
+            <ol className="mt-4 list-decimal list-inside space-y-2 text-xl text-neutral-700">
               <li>tap the heart to begin a short session</li>
               <li>talk out loud — berry listens and reflects back what it heard</li>
               <li>pick one tiny next step or gratitude</li>
               <li>session ends on time; your phone stays off</li>
             </ol>
-            <div className="mt-6 rounded-2xl bg-neutral-50 border border-neutral-200 p-5 text-base text-neutral-600">
+            <div className="mt-6 rounded-2xl bg-neutral-50 border border-neutral-200 p-5 text-lg text-neutral-600">
               built for presence, not endless chats.
             </div>
           </div>
@@ -138,9 +138,9 @@ export default function HomePage() {
       {/* micro-stressors examples */}
       <section className="mx-auto max-w-7xl px-6 py-12">
         <div className="rounded-3xl border border-neutral-200 bg-white p-8">
-          <h3 className="text-2xl font-semibold">made for the day-to-day</h3>
-          <p className="mt-3 text-lg text-neutral-700">the little things that pile up:</p>
-          <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-base">
+          <h3 className="text-3xl font-semibold">made for the day-to-day</h3>
+          <p className="mt-3 text-xl text-neutral-700">the little things that pile up:</p>
+          <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-lg">
             {["a rough quiz", "friend drama", "scroll fatigue", "practice didn't go well", "comparison spirals", "busy brain at night"].map((t,i) => (
               <div key={i} className="rounded-2xl border border-neutral-200 bg-neutral-50 px-5 py-4">{t}</div>
             ))}
@@ -162,8 +162,8 @@ export default function HomePage() {
             text: "step forward with positivity.",
           }].map((c,i)=> (
             <div key={i} className="rounded-3xl border border-neutral-200 bg-white p-8">
-              <h4 className="text-xl font-semibold">{c.title}</h4>
-              <p className="mt-2 text-lg text-neutral-700">{c.text}</p>
+              <h4 className="text-2xl font-semibold">{c.title}</h4>
+              <p className="mt-2 text-xl text-neutral-700">{c.text}</p>
             </div>
           ))}
         </div>
@@ -172,10 +172,10 @@ export default function HomePage() {
       {/* join */}
       <section id="join" className="mx-auto max-w-7xl px-6 py-16 md:py-20">
         <div className="rounded-3xl border border-neutral-200 bg-white p-10 md:p-12">
-          <h2 className="text-4xl md:text-5xl font-semibold">join the waitlist</h2>
-          <p className="mt-3 text-lg text-neutral-700 max-w-3xl">be the first to try berry. we'll send a short note when your spot opens up.</p>
+          <h2 className="text-5xl md:text-6xl font-semibold">join the waitlist</h2>
+          <p className="mt-3 text-xl text-neutral-700 max-w-3xl">be the first to try berry. we'll send a short note when your spot opens up.</p>
           {submitted ? (
-            <div className="mt-6 rounded-2xl border border-green-200 bg-green-50 p-5 text-green-800 text-base">
+            <div className="mt-6 rounded-2xl border border-green-200 bg-green-50 p-5 text-green-800 text-lg">
               thanks — you're on the list. see you soon.
             </div>
           ) : (
@@ -185,19 +185,19 @@ export default function HomePage() {
                 placeholder="your email"
                 value={email}
                 onChange={(e)=>setEmail(e.target.value.toLowerCase())}
-                className="w-full sm:w-auto flex-1 rounded-2xl border border-neutral-300 px-5 py-4 text-base outline-none focus:ring-2 focus:ring-neutral-900"
+                className="w-full sm:w-auto flex-1 rounded-2xl border border-neutral-300 px-5 py-4 text-lg outline-none focus:ring-2 focus:ring-neutral-900"
                 required
               />
-              <button className="rounded-2xl bg-neutral-900 text-white px-8 py-4 text-base font-medium hover:opacity-90">get early access</button>
+              <button className="rounded-2xl bg-neutral-900 text-white px-8 py-4 text-lg font-medium hover:opacity-90">get early access</button>
             </form>
           )}
-          <p className="mt-4 text-sm text-neutral-500">no spam. no data monetization. ever.</p>
+          <p className="mt-4 text-base text-neutral-500">no spam. no data monetization. ever.</p>
         </div>
       </section>
 
       {/* faq */}
       <section id="faq" className="mx-auto max-w-7xl px-6 py-12 md:py-20">
-        <h2 className="text-4xl md:text-5xl font-semibold">faq</h2>
+        <h2 className="text-5xl md:text-6xl font-semibold">faq</h2>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
           {[{
             q: "is berry a replacement for people?",
@@ -213,8 +213,8 @@ export default function HomePage() {
             a: "just a few minutes. short by design to keep things light and consistent.",
           }].map((item, i) => (
             <div key={i} className="rounded-3xl border border-neutral-200 bg-white p-8">
-              <h3 className="text-xl font-semibold">{item.q}</h3>
-              <p className="mt-2 text-lg text-neutral-700">{item.a}</p>
+              <h3 className="text-2xl font-semibold">{item.q}</h3>
+              <p className="mt-2 text-xl text-neutral-700">{item.a}</p>
             </div>
           ))}
         </div>
