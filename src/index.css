@@ -4,11 +4,11 @@
 
 /* Global text size increase */
 html {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 @media (min-width: 768px) {
   html {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
